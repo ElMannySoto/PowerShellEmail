@@ -12,7 +12,7 @@ Function Send-Email
 
     $Outlook = New-Object -ComObject Outlook.Application
     $Mail = $Outlook.CreateItem(0)
-    $Mail.To = "manuel.soto@spiritaero.com; manuel.soto@dxc.com"
+    $Mail.To = "eemannysoto@gmail.com; elmannysoto@gmail.com"
 	$Mail.Subject = $arg1_Subject
     $Mail.Body = $arg2_Body
     $Mail.Send()
